@@ -1,0 +1,9 @@
+node_modules/
+.DS_Store
+*.log
+
+.edge-*
+komanda-mobile*.png
+vite.log
+vite.err.log
+dist/
