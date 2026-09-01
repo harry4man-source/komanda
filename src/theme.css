@@ -1,0 +1,43 @@
+:root {
+  color: #26372f;
+  background: #dedbd2;
+  --ink: #173f35;
+  --burgundy: #711f35;
+  --burgundy-dark: #501526;
+  --forest: #173f35;
+  --gold: #c8a64b;
+  --gold-light: #eadb9a;
+  --acid: #d6bb62;
+  --cream: #f5f1e8;
+  --muted: #737b73;
+  --line: #ddd8cd;
+}
+
+body { background: #dedbd2; }
+.shell { background: var(--cream); box-shadow: 0 0 50px #50152618; }
+.shell > header { background: #f5f1e8f2; border-bottom: 1px solid #711f3512; }
+.brand b { background: var(--burgundy); color: var(--gold-light); }
+.notify::after { background: var(--gold); border-color: var(--cream); }
+.shell > nav { background: #f8f4ebef; border-color: #d8d0c0; }
+.shell > nav button.active { color: var(--burgundy); }
+.lime, .orange, .pink { background: var(--gold-light); }
+.peach, .purple { background: #d7b7bd; }
+.blue, .mint { background: #b9cbbd; }
+.match, .result, .stats { background: var(--burgundy); box-shadow: 0 15px 35px #50152630; }
+.match-top span, .attendance button.selected, .rsvp button.selected { background: var(--gold-light); color: var(--burgundy-dark); }
+.attendance { background: var(--burgundy-dark); }
+.attendance > div:last-child { background: #3e101e; }
+.crest.home { background: var(--gold); color: var(--burgundy-dark); }
+.crest.away { background: var(--forest); color: var(--gold-light); }
+.quick .acid, .tip { background: #dbe4d8; }
+.quick .peachbg { background: #ead9dc; }
+.pitch { background: #315f48; }
+.squad > button.selected { outline-color: var(--burgundy); background: #f1e6c3; }
+.squad .playing em, .green { color: #286044; }
+.squad > button.unavailable { opacity: .5; background: #ebe7df; cursor: not-allowed; }
+.squad > button.unavailable em { color: var(--burgundy); font-weight: 800; }
+.empty-player { width: 45px; height: 45px; border: 2px dashed var(--gold-light); border-radius: 50%; display: grid; place-items: center; color: var(--gold-light); font-size: 22px; text-shadow: none; }
+.round.dark, #message-form button, .modal-actions .primary, .done { background: var(--burgundy); color: var(--gold-light); }
+.calendar button.today { background: var(--burgundy); color: var(--gold-light); }
+.stats b { color: var(--gold-light); }
+.motm i { color: var(--burgundy); background: var(--gold-light); }
